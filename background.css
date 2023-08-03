@@ -1,0 +1,22 @@
+#custom-bg {
+    background-image: url('https://pixabay.com/photos/milky-way-stars-night-sky-2695569/');
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#text {
+    font-weight: bold;
+    font-size: large;
+}
+
+.col-md-12.jumbotron.text-center {
+    background-image: url('https://pixabay.com/photos/milky-way-stars-night-sky-2695569/');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+}   
