@@ -53,7 +53,7 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Inter
 
 # My Dashboard
 
-file:///C:/Users/Admin/OneDrive/UofT%20Data/Bootcamp/Offline_Notes/Module%2014%20-%20Interactive-Visualizations/Assignement/belly-button-challenge/StarterCode/index.html
+https://traceygeneau.github.io/belly-button-challenge/
 
 
 
