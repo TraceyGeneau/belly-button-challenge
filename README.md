@@ -1,5 +1,7 @@
 # belly-button-challenge
 
+![](https://github.com/TraceyGeneau/belly-button-challenge/blob/main/images/dashboard%20image.png)
+
 ## Background
 In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
 
@@ -35,6 +37,8 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Inter
 
 * Use otu_labels as the hovertext for the chart.
 
+![](https://github.com/TraceyGeneau/belly-button-challenge/blob/main/images/bar.png)
+
 3. Create a bubble chart that displays each sample.
 
 * Use otu_ids for the x values.
@@ -47,9 +51,18 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Inter
 
 * Use otu_labels for the text values.
 
+![](https://github.com/TraceyGeneau/belly-button-challenge/blob/main/images/bubble.png)
+
 4.  Display the sample metadata, i.e., an individual's demographic information.
 
 5.  Display each key-value pair from the metadata JSON object somewhere on the page.
+
+![](https://github.com/TraceyGeneau/belly-button-challenge/blob/main/images/demoraphic.png)
+
+## Bonus - Create a guage chart to show belly button washing freequency
+
+![](https://github.com/TraceyGeneau/belly-button-challenge/blob/main/images/guage.png)
+
 
 # My Dashboard
 
