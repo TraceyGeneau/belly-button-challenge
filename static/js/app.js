@@ -42,6 +42,8 @@ function init() {
         demo(first_sample);
         bar(first_sample);
         bubble(first_sample);
+        guagechart(first_sample);
+        
         
     });
 };
@@ -130,7 +132,12 @@ function bar(sample) {
 
         //Bar Graph Layout
         let layout = {
-            title:  "Top 10 OTUs Per Test Subject ID",
+            title:  {
+                text: "<b>Top 10 OTUs Per Test Subject ID</b>",
+                font: {size: 16},
+            }
+
+            
         };
 
         //plot the graph 
@@ -181,7 +188,11 @@ function bubble(sample) {
 
         //Bubble Graph Title
         let layout2 = {
-            title: "Individual OTU demographics of Belly Button Bacteria",
+            title:{
+                text: "<b>Individual OTU demographics of Belly Button Bacteria<b>",
+                font: {size: 20},
+            },
+
             hovermode: 'closest',
             xaxis: {title: "OTU ID"},
         };
@@ -192,6 +203,10 @@ function bubble(sample) {
     });
 
 };
+
+//.................................................................................
+
+
 
 
 // Function that updates dashboard when sample is changed
@@ -204,6 +219,7 @@ function optionChanged(value) {
     demo(value);
     bar(value);
     bubble(value);
+    guagechart(value);
     
 };
 
